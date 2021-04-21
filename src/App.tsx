@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import React, { useRef, useState } from 'react';
-import { useFrame } from 'react-three-fiber';
+import { useFrame } from '@react-three/fiber';
 import {
  ZapparCamera, ImageTracker, ZapparCanvas, BrowserCompatibility,
 } from '@zappar/zappar-react-three-fiber';
