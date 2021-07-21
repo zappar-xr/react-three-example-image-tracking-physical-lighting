@@ -74,7 +74,7 @@ function App() {
       <>
         <BrowserCompatibility />
         {/* Setup Zappar Canvas */}
-        <ZapparCanvas shadowMap gl={{ antialias: true }}>
+        <ZapparCanvas shadows gl={{ antialias: true }}>
           {/* Setup Zappar Camera */}
           <ZapparCamera />
           {/* Setup Zappar Image Tracker, passing our target file */}
